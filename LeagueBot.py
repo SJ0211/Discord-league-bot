@@ -219,7 +219,7 @@ async def f2p(ctx):
 
 @bot.command()
 async def shutdown(ctx):
-    if ctx.message.author.id == 338885742543765525:
+    if ctx.message.author.id == <id>:
         await ctx.send("cya")
         await ctx.bot.logout()
     else:
